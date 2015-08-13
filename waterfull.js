@@ -84,7 +84,7 @@ WaterFull.prototype = {
 		setTimeout(function (){
 			self.setPosition();
 			hide(elMark);
-		},400);
+		},600);
 	},
 	creatHtml : function (url){
 		var box = document.createElement('div');
