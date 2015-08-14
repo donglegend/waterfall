@@ -113,7 +113,7 @@ WaterFull.prototype = {
 				var minH = Math.min.apply(null, hArr);
 				var colsIndex = getIndex(hArr, minH)
 				if(colsIndex == -1){
-					alert("查询失败");
+					// alert("查询失败");
 					return false;
 				}
 				boxs[i].style.cssText = "position: absolute; top: "+minH+"px;"+"left: "+boxW*colsIndex+"px;"+"opacity:1";
